@@ -1,0 +1,21 @@
+a[href*="google"]
+{
+  color: red;}
+
+  a[href^="https"] begins with https
+  {
+    color:red;
+
+  }
+
+  
+  a[href$="https"]  ends with https
+  {
+    color:red;
+   
+  }
+
+  a[href^= "https"][href$= ".com"] mix and match
+  {
+    color: red;
+  }

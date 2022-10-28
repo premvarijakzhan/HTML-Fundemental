@@ -1,0 +1,20 @@
+body{
+  margin:10px;
+}
+ .box{
+      width: 200px;
+      height: 200px;
+      background-color: rgba(230, 205, 16, 0.5);
+ }
+
+ .box{
+  width: 200px;
+  height: 200px;
+  background-color: #e6cd10;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: hsla(53,65%,77%,0.5);
+}

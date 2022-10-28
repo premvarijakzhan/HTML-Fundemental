@@ -1,0 +1,2 @@
+-not scalable
+-vialotes the separation of concerns rule
