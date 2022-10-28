@@ -1,0 +1,80 @@
+/*html{
+  /*62.5% of 16px = 10px*/
+ /* font-size: 100%;*/
+/*}*/
+
+body{
+  margin:10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem; /* 1 * font size of the root element (html)*/ /*relative unit or rem is consistent according cross devices*/
+  line-height: 1.5;   
+  /*
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  */
+ /* direction: rtl;*/
+}
+
+/*
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+h1,h2,h3,h4,h5,h6{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1{
+  /*trbl*/
+  margin: 3rem 0 1rem;
+}
+
+/*relational selector: just add +p for the next line*/
+p {
+  width: 50ch;
+  /*text-align: left;
+  /text-indent: 1rem;*/
+  /*text-decoration: underline;*/
+  /*text-decoration: line-through;*/
+  /*text-transform: capitalize; useful for headings*/
+
+  /*for truncate*/
+ /*
+  white-space: nowrap;
+  border: 3px solid gold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  */
+
+  /* multi  column text*/
+  /*
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted #999 ;
+  */
+
+
+}
+
+/*
+h1{
+  /*font-size: 2rem;*/
+  /*font-size: 4.209rem;
+}
+*/
+
+/*
+h2{
+  font-size: 3.157rem;
+}
+
+*/
+@media screen and (min-width: 400px)
+{
+  html{
+    font-size: 130%;
+  }
+} 
